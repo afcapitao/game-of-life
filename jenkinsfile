@@ -1,0 +1,8 @@
+node {
+    stage("Build") {
+        echo "Tentar o build"
+    }
+    stage('Package') {
+        echo "tentar o package"
+    }
+}
